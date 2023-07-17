@@ -1,0 +1,190 @@
+[24-May-2023 10:18:55 UTC] PHP Warning:  Array to string conversion in /Users/rossoneill/Local Sites/udemy/app/public/test.php on line 7
+[24-May-2023 10:19:19 UTC] PHP Warning:  Undefined array key 3 in /Users/rossoneill/Local Sites/udemy/app/public/test.php on line 7
+[24-May-2023 10:24:53 UTC] PHP Warning:  Array to string conversion in /Users/rossoneill/Local Sites/udemy/app/public/test.php on line 10
+[24-May-2023 10:24:53 UTC] PHP Warning:  Array to string conversion in /Users/rossoneill/Local Sites/udemy/app/public/test.php on line 10
+[24-May-2023 10:24:53 UTC] PHP Warning:  Array to string conversion in /Users/rossoneill/Local Sites/udemy/app/public/test.php on line 10
+[24-May-2023 10:35:36 UTC] PHP Warning:  Constant NAME already defined in /Users/rossoneill/Local Sites/udemy/app/public/test.php on line 4
+[24-May-2023 10:52:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php:60
+Stack trace:
+#0 /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php(60): define('DEBUG')
+#1 /Users/rossoneill/Local Sites/udemy/app/public/wp-load.php(50): require_once('/Users/rossonei...')
+#2 /Users/rossoneill/Local Sites/udemy/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/rossonei...')
+#3 {main}
+  thrown in /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php on line 60
+[24-May-2023 10:53:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php:60
+Stack trace:
+#0 /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php(60): define('DEBUG')
+#1 /Users/rossoneill/Local Sites/udemy/app/public/wp-load.php(50): require_once('/Users/rossonei...')
+#2 /Users/rossoneill/Local Sites/udemy/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/rossonei...')
+#3 {main}
+  thrown in /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php on line 60
+[24-May-2023 10:55:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php:60
+Stack trace:
+#0 /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php(60): define('DEBUG')
+#1 /Users/rossoneill/Local Sites/udemy/app/public/wp-load.php(50): require_once('/Users/rossonei...')
+#2 /Users/rossoneill/Local Sites/udemy/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/rossonei...')
+#3 {main}
+  thrown in /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php on line 60
+[24-May-2023 10:57:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php:60
+Stack trace:
+#0 /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php(60): define('DEBUG')
+#1 /Users/rossoneill/Local Sites/udemy/app/public/wp-load.php(50): require_once('/Users/rossonei...')
+#2 /Users/rossoneill/Local Sites/udemy/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/rossonei...')
+#3 {main}
+  thrown in /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php on line 60
+[24-May-2023 10:59:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php:60
+Stack trace:
+#0 /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php(60): define('DEBUG')
+#1 /Users/rossoneill/Local Sites/udemy/app/public/wp-load.php(50): require_once('/Users/rossonei...')
+#2 /Users/rossoneill/Local Sites/udemy/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/rossonei...')
+#3 {main}
+  thrown in /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php on line 60
+[24-May-2023 11:08:55 UTC] PHP Warning:  Constant NAME already defined in /Users/rossoneill/Local Sites/udemy/app/public/test.php on line 5
+[24-May-2023 15:38:29 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[24-May-2023 15:39:29 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[24-May-2023 15:39:32 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[24-May-2023 15:39:32 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[24-May-2023 15:40:22 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[24-May-2023 15:40:22 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[24-May-2023 15:40:29 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[24-May-2023 15:40:29 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[24-May-2023 15:40:29 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[24-May-2023 15:41:29 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[24-May-2023 15:43:29 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[24-May-2023 16:04:30 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 08:33:32 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wpdb.php on line 2019
+[12-Jun-2023 08:36:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wpdb.php on line 2019
+[12-Jun-2023 08:36:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wpdb.php on line 2019
+[12-Jun-2023 09:02:15 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 09:03:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 416
+[12-Jun-2023 09:03:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 417
+[12-Jun-2023 09:03:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 418
+[12-Jun-2023 09:03:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 419
+[12-Jun-2023 09:03:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 416
+[12-Jun-2023 09:03:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 417
+[12-Jun-2023 09:03:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 418
+[12-Jun-2023 09:03:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 419
+[12-Jun-2023 09:12:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 416
+[12-Jun-2023 09:12:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 417
+[12-Jun-2023 09:12:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 418
+[12-Jun-2023 09:12:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 419
+[12-Jun-2023 09:13:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 416
+[12-Jun-2023 09:13:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 417
+[12-Jun-2023 09:13:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 418
+[12-Jun-2023 09:13:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 419
+[12-Jun-2023 09:15:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 416
+[12-Jun-2023 09:15:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 417
+[12-Jun-2023 09:15:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 418
+[12-Jun-2023 09:15:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 419
+[12-Jun-2023 09:20:13 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Control character error, possibly incorrectly encoded in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 09:55:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 416
+[12-Jun-2023 09:55:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 417
+[12-Jun-2023 09:55:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 418
+[12-Jun-2023 09:55:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 419
+[12-Jun-2023 09:57:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 416
+[12-Jun-2023 09:57:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 417
+[12-Jun-2023 09:57:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 418
+[12-Jun-2023 09:57:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 419
+[12-Jun-2023 10:01:18 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:03:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 416
+[12-Jun-2023 10:03:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 417
+[12-Jun-2023 10:03:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 418
+[12-Jun-2023 10:03:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 419
+[12-Jun-2023 10:08:14 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:08:59 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:08:59 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:08:59 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:09:09 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:09:09 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:09:09 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:09:09 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:09:09 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:09:09 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:09:10 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:09:14 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:09:42 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:09:47 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:09:50 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:09:55 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:09:55 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:10:01 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:10:01 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:10:01 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:10:15 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:11:16 UTC] PHP Notice:  Error when decoding a JSON file at path /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/udemy/theme.json: Syntax error in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/functions.php on line 4558
+[12-Jun-2023 10:11:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 416
+[12-Jun-2023 10:11:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 417
+[12-Jun-2023 10:11:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 418
+[12-Jun-2023 10:11:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 419
+[12-Jun-2023 10:11:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 416
+[12-Jun-2023 10:11:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 417
+[12-Jun-2023 10:11:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 418
+[12-Jun-2023 10:11:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 419
+[12-Jun-2023 10:11:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 416
+[12-Jun-2023 10:11:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 417
+[12-Jun-2023 10:11:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 418
+[12-Jun-2023 10:11:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/block-supports/duotone.php on line 419
+[12-Jun-2023 14:43:56 UTC] PHP Fatal error:  Uncaught Error: Cannot use [] for reading in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/Udemy-Repository/includes/front/enqueue.php:7
+Stack trace:
+#0 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(308): u_enqueue('')
+#1 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/general-template.php(3049): do_action('wp_head')
+#8 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/template-canvas.php(17): wp_head()
+#9 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/template-loader.php(106): include('/Users/rossonei...')
+#10 /Users/rossoneill/Local Sites/udemy/app/public/wp-blog-header.php(19): require_once('/Users/rossonei...')
+#11 /Users/rossoneill/Local Sites/udemy/app/public/index.php(17): require('/Users/rossonei...')
+#12 {main}
+  thrown in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/Udemy-Repository/includes/front/enqueue.php on line 7
+[12-Jun-2023 14:43:57 UTC] PHP Fatal error:  Uncaught Error: Cannot use [] for reading in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/Udemy-Repository/includes/front/enqueue.php:7
+Stack trace:
+#0 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(308): u_enqueue('')
+#1 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/general-template.php(3049): do_action('wp_head')
+#8 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/template-canvas.php(17): wp_head()
+#9 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/template-loader.php(106): include('/Users/rossonei...')
+#10 /Users/rossoneill/Local Sites/udemy/app/public/wp-blog-header.php(19): require_once('/Users/rossonei...')
+#11 /Users/rossoneill/Local Sites/udemy/app/public/index.php(17): require('/Users/rossonei...')
+#12 {main}
+  thrown in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/themes/Udemy-Repository/includes/front/enqueue.php on line 7
+[21-Jun-2023 13:03:00 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wpdb.php on line 2019
+[21-Jun-2023 13:03:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wpdb.php on line 2019
+[21-Jun-2023 13:03:03 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wpdb.php on line 2019
+[21-Jun-2023 13:49:49 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/fakerpress/src/FakerPress/Provider/HTML.php on line 180
+[21-Jun-2023 13:49:59 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/fakerpress/src/FakerPress/Provider/HTML.php on line 180
+[21-Jun-2023 13:50:02 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/fakerpress/src/FakerPress/Provider/HTML.php on line 180
+[21-Jun-2023 13:50:09 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/fakerpress/src/FakerPress/Provider/HTML.php on line 180
+[21-Jun-2023 13:50:10 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/fakerpress/src/FakerPress/Provider/HTML.php on line 180
+[21-Jun-2023 13:50:21 UTC] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/fakerpress/src/FakerPress/Provider/HTML.php on line 180
+[21-Jun-2023 14:13:33 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "u_setup_theme" not found or invalid function name in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/rossoneill/Local Sites/udemy/app/public/wp-settings.php(601): do_action('after_setup_the...')
+#3 /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php(104): require_once('/Users/rossonei...')
+#4 /Users/rossoneill/Local Sites/udemy/app/public/wp-load.php(50): require_once('/Users/rossonei...')
+#5 /Users/rossoneill/Local Sites/udemy/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/rossonei...')
+#6 {main}
+  thrown in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php on line 308
+[23-Jun-2023 13:13:17 UTC] PHP Warning:  Undefined array key "host" in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/canonical.php on line 689
+[23-Jun-2023 13:13:17 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/canonical.php on line 689
+[23-Jun-2023 13:13:17 UTC] PHP Warning:  Undefined array key "host" in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/canonical.php on line 698
+[23-Jun-2023 13:13:17 UTC] PHP Warning:  Undefined array key "host" in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/canonical.php on line 701
+[23-Jun-2023 13:13:17 UTC] PHP Warning:  Undefined array key "scheme" in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/canonical.php on line 722
+[23-Jun-2023 13:13:17 UTC] PHP Warning:  Undefined array key "host" in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/canonical.php on line 689
+[23-Jun-2023 13:13:17 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/canonical.php on line 689
+[23-Jun-2023 13:13:17 UTC] PHP Warning:  Undefined array key "host" in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/canonical.php on line 698
+[23-Jun-2023 13:13:17 UTC] PHP Warning:  Undefined array key "host" in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/canonical.php on line 701
+[23-Jun-2023 13:13:17 UTC] PHP Warning:  Undefined array key "scheme" in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/canonical.php on line 722
+[17-Jul-2023 08:39:04 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wpdb.php on line 2019
+[17-Jul-2023 08:39:06 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wpdb.php on line 2019
+[17-Jul-2023 08:39:06 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wpdb.php on line 2019
