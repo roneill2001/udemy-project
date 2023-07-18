@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@wordpress/i18n": "^4.37.0",
+    "eslint": "8.22.0"
+  }
+}

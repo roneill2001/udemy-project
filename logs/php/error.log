@@ -188,3 +188,48 @@ Stack trace:
 [17-Jul-2023 08:39:04 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wpdb.php on line 2019
 [17-Jul-2023 08:39:06 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wpdb.php on line 2019
 [17-Jul-2023 08:39:06 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/rossoneill/Local Sites/udemy/app/public/wp-includes/class-wpdb.php on line 2019
+[18-Jul-2023 13:37:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: function_exists() expects exactly 1 argument, 0 given in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php:13
+Stack trace:
+#0 /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php(13): function_exists()
+#1 /Users/rossoneill/Local Sites/udemy/app/public/wp-settings.php(453): include_once('/Users/rossonei...')
+#2 /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php(104): require_once('/Users/rossonei...')
+#3 /Users/rossoneill/Local Sites/udemy/app/public/wp-load.php(50): require_once('/Users/rossonei...')
+#4 /Users/rossoneill/Local Sites/udemy/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/rossonei...')
+#5 {main}
+  thrown in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php on line 13
+[18-Jul-2023 13:38:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: function_exists() expects exactly 1 argument, 0 given in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php:13
+Stack trace:
+#0 /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php(13): function_exists()
+#1 /Users/rossoneill/Local Sites/udemy/app/public/wp-settings.php(453): include_once('/Users/rossonei...')
+#2 /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php(104): require_once('/Users/rossonei...')
+#3 /Users/rossoneill/Local Sites/udemy/app/public/wp-load.php(50): require_once('/Users/rossonei...')
+#4 /Users/rossoneill/Local Sites/udemy/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/rossonei...')
+#5 {main}
+  thrown in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php on line 13
+[18-Jul-2023 13:40:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: function_exists() expects exactly 1 argument, 0 given in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php:13
+Stack trace:
+#0 /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php(13): function_exists()
+#1 /Users/rossoneill/Local Sites/udemy/app/public/wp-settings.php(453): include_once('/Users/rossonei...')
+#2 /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php(104): require_once('/Users/rossonei...')
+#3 /Users/rossoneill/Local Sites/udemy/app/public/wp-load.php(50): require_once('/Users/rossonei...')
+#4 /Users/rossoneill/Local Sites/udemy/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/rossonei...')
+#5 {main}
+  thrown in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php on line 13
+[18-Jul-2023 13:42:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: function_exists() expects exactly 1 argument, 0 given in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php:13
+Stack trace:
+#0 /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php(13): function_exists()
+#1 /Users/rossoneill/Local Sites/udemy/app/public/wp-settings.php(453): include_once('/Users/rossonei...')
+#2 /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php(104): require_once('/Users/rossonei...')
+#3 /Users/rossoneill/Local Sites/udemy/app/public/wp-load.php(50): require_once('/Users/rossonei...')
+#4 /Users/rossoneill/Local Sites/udemy/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/rossonei...')
+#5 {main}
+  thrown in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php on line 13
+[18-Jul-2023 13:44:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: function_exists() expects exactly 1 argument, 0 given in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php:13
+Stack trace:
+#0 /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php(13): function_exists()
+#1 /Users/rossoneill/Local Sites/udemy/app/public/wp-settings.php(453): include_once('/Users/rossonei...')
+#2 /Users/rossoneill/Local Sites/udemy/app/public/wp-config.php(104): require_once('/Users/rossonei...')
+#3 /Users/rossoneill/Local Sites/udemy/app/public/wp-load.php(50): require_once('/Users/rossonei...')
+#4 /Users/rossoneill/Local Sites/udemy/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/rossonei...')
+#5 {main}
+  thrown in /Users/rossoneill/Local Sites/udemy/app/public/wp-content/plugins/udemy-plus/index.php on line 13
