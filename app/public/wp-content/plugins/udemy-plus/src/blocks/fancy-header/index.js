@@ -15,5 +15,12 @@ registerBlockType(block.name, {
         onChange={newVal => setAttributes({ content: newVal})}
       />
     )
+  },
+  save({ attributes }) {
+    const { content } = attributes
+
+    return <RichText.Content
+    tagName="h2"
+    value={content}/>
   }
 })
