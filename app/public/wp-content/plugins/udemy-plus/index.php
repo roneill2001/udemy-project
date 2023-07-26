@@ -13,17 +13,27 @@
  */
 
 if(!function_exists('add_action')) {
-  echo 'Seems like you stumbled here by accident. 😛';
-  exit;
+	echo 'Seems like you stumbled here by accident. 😛';
+	exit;
 }
 
 // Setup
 define('UP_PLUGIN_DIR', plugin_dir_path(__FILE__));
+define('UP_PLUGIN_FILE', __FILE__);
 
 // Includes
-include(UP_PLUGIN_DIR . 'includes/register-blocks.php');
-include(UP_PLUGIN_DIR . 'includes/blocks/search-form.php');
-include(UP_PLUGIN_DIR . 'includes/blocks/page-header.php');
+$rootFiles = glob(UP_PLUGIN_DIR . 'includes/*.php');
+$subdirectoryFiles = glob(UP_PLUGIN_DIR . 'includes/**/*.php');
+$allFiles = array_merge($rootFiles, $subdirectoryFiles);
+
+foreach($allFiles as $filename) {
+	include_once($filename);
+}
 
 // Hooks
 add_action('init', 'up_register_blocks');
+add_action('rest_api_init', 'up_rest_api_init');
+add_action('wp_enqueue_scripts', 'up_enqueue_scripts');
+
+
+

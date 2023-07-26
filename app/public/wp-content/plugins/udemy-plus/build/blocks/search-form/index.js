@@ -274,7 +274,7 @@ __webpack_require__.r(__webpack_exports__);
     const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)({
       style: {
         'background-color': bgColor,
-        'color': textColor
+        color: textColor
       }
     });
     return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.InspectorControls, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.PanelColorSettings, {
@@ -301,7 +301,7 @@ __webpack_require__.r(__webpack_exports__);
       type: "submit",
       style: {
         'background-color': bgColor,
-        'color': textColor
+        color: textColor
       }
     }, "Search")))));
   }

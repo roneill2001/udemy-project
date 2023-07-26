@@ -5,12 +5,10 @@
   "title": "Search Form",
   "category": "widgets",
   "description": "Adds a search form",
-  "keywords": [
-    "search form"
-  ],
+  "keywords": ["search form"],
   "version": "1",
   "textdomain": "udemy-plus",
-  "editorScript": "file:./index.js",
+  "editorScript": "file:./index.js", 
   "attributes": {
     "bgColor": {
       "type": "string",

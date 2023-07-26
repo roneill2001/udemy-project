@@ -200,7 +200,7 @@ function _extends() {
   \********************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"udemy-plus/fancy-header","title":"Fancy Header","category":"text","description":"Adds a header with a hover effect","keywords":["header","underline","hover"],"version":"1","textdomain":"udemy-plus","editorScript":"file:./index.js","attributes":{"content":{"type":"string"},"underline_color":{"type":"string","default":"#f87171"}},"style":"file:./index.css"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"udemy-plus/fancy-header","title":"Fancy Header","category":"text","description":"Adds a header with a hover effect","keywords":["header","underline","hover"],"version":"1","textdomain":"udemy-plus","editorScript":"file:./index.js","attributes":{"content":{"type":"string","source":"html","selector":"h2"},"underline_color":{"type":"string","default":"#f87171"}},"style":"file:./index.css"}');
 
 /***/ })
 
@@ -351,9 +351,9 @@ __webpack_require__.r(__webpack_exports__);
       className: 'fancy-header',
       style: {
         'background-image': `
-                linear-gradient(transparent, transparent),
-                linear-gradient(${underline_color}, ${underline_color});
-                `
+          linear-gradient(transparent, transparent),
+          linear-gradient(${underline_color}, ${underline_color});
+        `
       }
     });
     return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.RichText.Content, (0,_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, blockProps, {
