@@ -181,12 +181,14 @@ function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i];
+
       for (var key in source) {
         if (Object.prototype.hasOwnProperty.call(source, key)) {
           target[key] = source[key];
         }
       }
     }
+
     return target;
   };
   return _extends.apply(this, arguments);
@@ -304,6 +306,7 @@ __webpack_require__.r(__webpack_exports__);
 
 (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_2__.registerBlockType)(_block_json__WEBPACK_IMPORTED_MODULE_6__.name, {
   icon: _icons__WEBPACK_IMPORTED_MODULE_7__["default"].primary,
+
   edit(_ref) {
     let {
       attributes,
@@ -339,6 +342,7 @@ __webpack_require__.r(__webpack_exports__);
       allowedFormats: ['core/bold', 'core/italic']
     })));
   },
+
   save(_ref2) {
     let {
       attributes
@@ -361,6 +365,7 @@ __webpack_require__.r(__webpack_exports__);
       value: content
     }));
   }
+
 });
 })();
 

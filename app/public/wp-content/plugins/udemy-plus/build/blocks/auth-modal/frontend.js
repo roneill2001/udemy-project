@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       event.currentTarget.classList.add('active-tab');
       const activeTab = event.currentTarget.getAttribute('href');
+
       if (activeTab === '#signin-tab') {
         signinForm.style.display = 'block';
         signupForm.style.display = 'none';
@@ -62,6 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
       body: JSON.stringify(formData)
     });
     const responseJSON = await response.json();
+
     if (responseJSON.status === 2) {
       signupStatus.innerHTML = `
         <div class="modal-status modal-status-success">
@@ -100,6 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
       body: JSON.stringify(formData)
     });
     const responseJSON = await response.json();
+
     if (responseJSON.status === 2) {
       signinStatus.innerHTML = `
         <div class="modal-status modal-status-success">

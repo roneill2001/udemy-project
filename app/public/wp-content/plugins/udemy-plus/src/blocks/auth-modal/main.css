@@ -141,7 +141,7 @@
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
   -webkit-text-decoration-line: none;
-  text-decoration-line: none;
+          text-decoration-line: none;
 }
 .wp-block-udemy-plus-auth-modal .tabs a.active-tab {
   --tw-text-opacity: 1;

@@ -262,6 +262,7 @@ __webpack_require__.r(__webpack_exports__);
 
 (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__.registerBlockType)(_block_json__WEBPACK_IMPORTED_MODULE_4__.name, {
   icon: _icons__WEBPACK_IMPORTED_MODULE_5__["default"].primary,
+
   edit(_ref) {
     let {
       attributes,
@@ -305,6 +306,7 @@ __webpack_require__.r(__webpack_exports__);
       }
     }, "Search")))));
   }
+
 });
 })();
 

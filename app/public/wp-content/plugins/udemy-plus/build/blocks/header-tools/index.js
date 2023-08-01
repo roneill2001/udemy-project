@@ -265,6 +265,7 @@ __webpack_require__.r(__webpack_exports__);
   icon: {
     src: _icons_js__WEBPACK_IMPORTED_MODULE_5__["default"].primary
   },
+
   edit(_ref) {
     let {
       attributes,
@@ -307,6 +308,7 @@ __webpack_require__.r(__webpack_exports__);
       className: "signin-text"
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("small", null, "Hello, Sign in"), "My Account"))));
   }
+
 });
 })();
 
