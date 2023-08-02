@@ -1,13 +1,13 @@
-import { registerBlockType } from '@wordpress/blocks';
-import icons from '../../icons.js';
-import './main.css';
-import edit from './edit'
-import save from './save'
+import { registerBlockType } from "@wordpress/blocks";
+import icons from "../../icons.js";
+import "./main.css";
+import edit from "./edit.js";
+import save from "./save.js";
 
-registerBlockType('udemy-plus/team-member', {
+registerBlockType("udemy-plus/team-member", {
   icon: {
-    src: icons.primary
+    src: icons.primary,
   },
   edit,
-  save
+  save,
 });

@@ -7,7 +7,7 @@ function up_recipe_post_type() {
     'menu_name'             => _x( 'Recipes', 'Admin Menu text', 'udemy-plus' ),
     'name_admin_bar'        => _x( 'Recipe', 'Add New on Toolbar', 'udemy-plus' ),
     'add_new'               => __( 'Add New', 'udemy-plus' ),
-    'add_new_item'          => __( 'Add New Recipe', 'udemy-plus' ),
+    'add_new_item'          => __( 'Add New Recipe', "udemy-plus" ),
     'new_item'              => __( 'New Recipe', 'udemy-plus' ),
     'edit_item'             => __( 'Edit Recipe', 'udemy-plus' ),
     'view_item'             => __( 'View Recipe', 'udemy-plus' ),
@@ -71,5 +71,46 @@ function up_recipe_post_type() {
     'single' => true,
     'default' => 0,
     'show_in_rest' => true
+  ]);
+
+  register_post_meta('', 'og_title', [
+    'single' => true,
+    'type' => 'string',
+    'show_in_rest' => true,
+    'sanitize_callback' => 'sanitize_text_field',
+    'auth_callback' => function() {
+      return current_user_can('edit_posts');
+    }
+  ]);
+
+  register_post_meta('', 'og_description', [
+    'single' => true,
+    'type' => 'string',
+    'show_in_rest' => true,
+    'sanitize_callback' => 'sanitize_text_field',
+    'auth_callback' => function() {
+      return current_user_can('edit_posts');
+    }
+  ]);
+
+  register_post_meta('', 'og_image', [
+    'single' => true,
+    'type' => 'string',
+    'show_in_rest' => true,
+    'sanitize_callback' => 'sanitize_text_field',
+    'auth_callback' => function() {
+      return current_user_can('edit_posts');
+    }
+  ]);
+
+  register_post_meta('', 'og_override_image', [
+    'single' => true,
+    'type' => 'boolean',
+    'default' => false,
+    'show_in_rest' => true,
+    'sanitize_callback' => 'sanitize_text_field',
+    'auth_callback' => function() {
+      return current_user_can('edit_posts');
+    }
   ]);
 }
