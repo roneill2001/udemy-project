@@ -46,8 +46,10 @@ __webpack_require__.r(__webpack_exports__);
   } = attributes;
   const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)();
   const [imgPreview, setImgPreview] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)(imgURL);
+
   const selectImg = img => {
     let newImgURL = null;
+
     if ((0,_wordpress_blob__WEBPACK_IMPORTED_MODULE_4__.isBlobURL)(img.url)) {
       newImgURL = img.url;
     } else {
@@ -59,8 +61,10 @@ __webpack_require__.r(__webpack_exports__);
       });
       (0,_wordpress_blob__WEBPACK_IMPORTED_MODULE_4__.revokeBlobURL)(imgPreview);
     }
+
     setImgPreview(newImgURL);
   };
+
   const selectImgURL = url => {
     setAttributes({
       imgID: null,
@@ -69,6 +73,7 @@ __webpack_require__.r(__webpack_exports__);
     });
     setImgPreview(url);
   };
+
   const imageClass = `wp-image-${imgID} img-${context["udemy-plus/image-shape"]}`;
   const [activeSocialLink, setActiveSocialLink] = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useState)(null);
   setAttributes({
@@ -176,8 +181,7 @@ __webpack_require__.r(__webpack_exports__);
     label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)("URL", "udemy-plus"),
     value: socialHandles[activeSocialLink].url,
     onChange: url => {
-      const tempLink = {
-        ...socialHandles[activeSocialLink]
+      const tempLink = { ...socialHandles[activeSocialLink]
       };
       const tempSocial = [...socialHandles];
       tempLink.url = url;
@@ -190,8 +194,7 @@ __webpack_require__.r(__webpack_exports__);
     label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)("Icon", "udemy-plus"),
     value: socialHandles[activeSocialLink].icon,
     onChange: icon => {
-      const tempLink = {
-        ...socialHandles[activeSocialLink]
+      const tempLink = { ...socialHandles[activeSocialLink]
       };
       const tempSocial = [...socialHandles];
       tempLink.icon = icon;
